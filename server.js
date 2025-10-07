@@ -18,6 +18,7 @@ app.delete('/items/:id', handler.deleteHandler)
 app.put('/items/:id', handler.putHandler)
 
 //app.get('*', handler.errorHandler) //error handler
+// Avec cette methode ça renvoie des errueurs, donc j'ai utilisé la methode ci-dessous
 app.use(handler.errorHandler) //error handler
 
 app.listen(port, () => {
