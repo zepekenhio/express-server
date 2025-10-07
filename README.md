@@ -27,3 +27,5 @@ POST /items → ajoute un élément
 GET /items/:id → retourne un élément précis
 
 DELETE /items/:id → supprime un élément
+
+PUT /items/:id  → modifier un élément
